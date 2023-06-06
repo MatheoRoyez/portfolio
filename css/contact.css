@@ -1,0 +1,53 @@
+/*CONTACT*/
+.form-group {
+    margin-bottom: 15px;
+}
+.form .form-group input {
+    background: transparent;
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form .form-group input:focus {
+    border-color: var(--green);
+    height: 40px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form .form-group textarea {
+    border: 1px solid white;
+    background: transparent;
+    margin-top: 10px;
+    padding-bottom: 5%;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+}
+
+.form .form-group textarea:focus {
+    border-color: var(--green);
+    margin-top: 10px;
+    padding-bottom: 5%;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form button {
+    background-color: white!important;
+    color: var(--green)!important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+textarea.form-control {
+    height: auto;
+}

@@ -1,0 +1,65 @@
+/*ABOUT*/
+@import url("colors.css");
+
+.section_padding {
+    padding: 70px 50px;
+}
+.about_content_erea:first-of-type {
+    margin: 30px 0px 0px 0px;
+}
+.dark_bg .single_about h4 {
+    color: var(--black);
+}
+.dark_bg .about_content_erea p {
+    color: var(--black);
+}
+.about_details {
+    margin-top: 20px;
+}
+.dark_bg .ct_about {
+    color: var(--black);
+}
+.ct_about {
+    margin: 6px 0;
+}
+
+.about_details span {
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 24%;
+}
+
+.main_btn {
+    color: var(--white) !important;
+    font-size: 13px !important;
+    padding: 20px 20px !important;
+    letter-spacing: 0.6px !important;
+    font-weight: 600 !important;
+    background: var(--black) !important;
+    line-height: 10px !important;
+    border: none !important;
+    transition: all 0.4s ease-in-out 0s !important;
+}
+
+.btn-default {
+    color:var(--black);
+    background-color: white;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    border-radius: 4px;
+    user-select: none;
+}

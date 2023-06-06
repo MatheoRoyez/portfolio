@@ -1,0 +1,154 @@
+@media (max-width:385px) {
+    .header_btn input {
+        margin-top: 20px;
+        padding: 10px 40px;
+    }
+}
+
+@media (max-width:417px) {
+    .contact_form h1 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .ct2 {
+        padding: 40px 40px 100px 40px !important;
+    }
+}
+
+@media (max-width:450px) {
+    .skills i {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:495px) {
+    .card_content p {
+        font-size: 11px;
+    }
+
+    .card_content h4 {
+        font-size: 15px;
+    }
+
+    .about_info p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:505px) {
+    .div_cv p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:545px) {
+    #home p:nth-of-type(2) {
+        font-size: 1rem;
+    }   
+    #home p:last-of-type {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:700px) {
+    #about_me .grid_about {
+        display: grid;
+        grid-row-gap: 3rem;
+        grid-template-areas: 
+        ". title ."
+        ". img ."
+        ". info .";
+        grid-template-columns: auto 80% auto;
+    }
+
+    .about_info {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .ct2 {
+        padding: 40px 90px 100px 90px;
+    }
+    .contact {
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "contact1"
+        "contact2";
+        grid-template-columns: auto;
+        grid-template-rows: 10% 50% 40%;
+        grid-row-gap: 0;
+    }
+
+    .contact_section {
+        display: grid;
+        grid-template-areas: ". content .";
+        grid-template-columns: auto 80% auto;
+    }
+
+    .contact_info div {
+        margin:auto;
+    }
+
+    .footer_grid {
+        display: none;
+    }
+    .navbar_mobile {
+        visibility: visible !important;
+    }
+}
+
+@media (max-width:880px) {
+    .work-card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card_content {
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .fluvius {
+        background-position-y: 40%;
+        height: 12rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .fluvius_2 {
+        background-position-y: 0;
+        height: 12rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .fluvius_3 {
+        background-position-y: 0;
+        height: 12rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .right {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 930px) {
+    .navbar nav ul {
+       visibility: hidden;
+       display: none;
+    }
+
+    .navbar nav  {
+        display: flex;
+        justify-content: center;
+    }
+ }

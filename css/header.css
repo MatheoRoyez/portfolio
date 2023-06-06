@@ -1,0 +1,548 @@
+@import url(colors.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    text-align: center;
+}
+.grid {
+    padding: 40px 0px;
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-template-areas: 
+    "driehoek card1 ."
+    ". card2 ."
+    ". card3 ."
+    '. card4 .';
+    grid-template-columns: auto 80% auto;
+}
+
+.grid_title {
+    display: grid;
+    grid-template-areas: ". title .";
+    grid-template-columns: auto 80% auto;
+    grid-row-gap: 3rem;
+}
+
+.gd1 {
+    grid-area: driehoek;
+}
+
+.t1 {
+    grid-area: title;
+}
+
+.c1 {
+    grid-area: card1;
+}
+
+.c2 {
+    grid-area: card2;
+}
+
+.c3 {
+    grid-area: card3;
+}
+
+.c4 {
+    grid-area: card4;
+}
+
+.right {
+    justify-self: flex-end;
+}
+
+.work-card {
+    display: flex;
+    width: 75%;
+    background-color: white;
+    box-shadow: 3px 6px 20px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+img {
+   width: 580px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.2rem;
+    padding: 20px 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.black {
+    background-color: #201f1f;
+}
+
+.white {
+    color: #f7f3f3!important;
+}
+
+.card_content h4 {
+    color: black;
+    font-size: 22px;
+}
+
+.card_content p {
+    color: black;
+}
+
+.card_content {
+    font-size: 14px;   
+    font-weight: 300;
+}
+
+.card_content_code p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--light-green);
+}
+
+.header_card p {
+    font-weight: 600;
+    color: var(--light-green);
+}
+
+.card_content_code {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+
+.card_img {
+    border-radius: 0px 4px 4px 0px;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    background-position: 70%;
+    height: 100%;
+}
+
+.fluvius {
+    background-image: url(../pictures/Knipsel.png);
+    background-size: cover;
+    background-position: 20%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.fluvius_2 {
+    background-image: url(../pictures/Knipsel2.png);
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.fluvius_3 {
+    background-image: url(../pictures/1572328043272.jfif);
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.title_work  h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.section_cv {
+    display: grid;
+    grid-template-areas: ". info .";
+    grid-template-columns: auto 80% auto;
+    background-color: white;
+}
+
+.i1 {
+    grid-area: info;
+}
+
+.div_cv {
+    padding: 30px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.div_cv p {
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: white!important;
+}
+
+.div_cv a {
+    background-color: white !important;
+    color: var(--light-green) !important;
+}
+
+#about_me .grid_about {
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-template-areas: 
+    ". title title ."
+    ". info img .";
+    grid-template-columns: auto 40% 40% auto;
+    grid-template-rows: auto 3fr;
+}
+
+.about_info {
+    padding-right: 20px;
+}
+
+.about_info h2 {
+    padding-bottom: 10px;
+}
+
+.about_img {
+    float: right;
+    text-align: right;
+}
+
+.about_img img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.section_padding_about {
+    padding: 70px 0px;
+}
+
+.t2 {
+    grid-area: title;
+}
+
+.a1 {
+    grid-area: info;
+}
+
+.a2 {
+    grid-area: img;
+}
+
+.grid_contact {
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-column-gap: 1.7rem;
+    grid-template-areas: 
+    ". title title ."
+    ". details contact .";
+    grid-template-columns: auto 38% 40% auto;
+    grid-template-rows: auto 3fr;
+}
+
+.co1 {
+    grid-area: title;
+}
+.co2 {
+    grid-area: details;
+}
+.co3 {
+    grid-area: contact;
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.contact {
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "contact1 contact2";
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 3rem;
+}
+
+
+.ct1 {
+    grid-area: contact1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../pictures/Brew-Business-Connections-over-a-Coffee-Meeting-1.jpg);
+    background-size: cover;
+}
+
+.ct1 h1 {
+    font-weight: 500;
+}
+
+.ct2 {
+    background-color: #201f1f;
+    grid-area: contact2;
+    width: 100%;
+    padding: 20px 90px;
+}
+
+.ct3 {
+    grid-area: title;
+}
+
+.contact_form h1 {
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.co3 h1 {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../pictures/891801.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+}
+
+#home p {
+    color: white;
+}
+
+.form p {
+    text-align: left;
+    color: white;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.header p:last-of-type {
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.header p:nth-of-type(2) {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+}
+
+.header input {
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.header input:hover {
+    background-color: var(--light-green);
+}
+
+.header_contact {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_options {
+    background: #005f5f5b;
+    width: 110px;
+    min-width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    /* position: relative;
+    left: 45%;
+    bottom: -170px; */
+}
+
+.contact_options a {
+    font-size: 17px;
+}
+
+.contact_options i {
+    color: white;
+}
+
+.contact_options i:hover {
+    color: var(--green);
+}
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+   color: white;
+}   
+
+.footer_grid {
+    display: grid;
+    background: var(--green);
+    grid-template-areas: ". info .";
+    grid-template-columns: auto 80% auto;
+}
+
+.f1 {
+    grid-area: info;
+}
+.contact_options_footer {
+    background: white;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.section_padding_work {
+    padding: 70px 0px;
+}
+
+.driehoek {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid black;
+  position: absolute;
+}
+
+.driehoek2 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;  
+    border-right: 60px solid white; 
+    position: relative;
+    top: 60px;
+    left: 0px;
+}
+
+.driehoek3 {
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid black;
+    position: relative;
+}
+
+.grid_header {
+    display: grid;
+    grid-template-areas: 
+    ". title .";
+    grid-template-columns: auto 80% auto;
+}
+
+.h1 {
+    grid-area: title;
+}
+
+.logo {
+    padding-top: 6px;
+}
+
+.footer_copy {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+
+.contact_info {
+    grid-area: content;
+    position: relative;
+    display: flex;
+}
+
+.contact_info div {
+    margin: auto 0;
+}
+
+.contact_phone {
+    padding-bottom: 20px;
+}
+
+.contact_phone p:first-of-type {
+    font-size: 17px;
+    color: white;
+}
+
+.contact_phone i {
+    padding-right: 10px;
+    color: white;
+}
+
+.contact_phone p:last-of-type {
+    margin-left: 30px;
+    color: var(--light-green);
+    font-weight: 600;
+}
+
+.contact_mail p:first-of-type {
+    font-size: 17px;
+    color: white;
+}
+.contact_mail i {
+    color: white;
+    padding-right: 17px;
+}
+
+.contact_mail p:last-of-type {
+    margin-left: 33px;
+    color: var(--light-green);
+    font-weight: 600;
+}
+
+.contact_section {
+    display: grid;
+    grid-template-areas: ". content";
+    grid-template-columns: auto 80%;
+}
+
+.background_color {
+    background: var(--green);
+}
+
+.skills {
+    padding: 10px 0;
+}
+
+.skills i {
+    padding-right: 30px;
+    font-size: 40px;
+}
+
+.skills i:hover {
+    transform: scale(1.3) rotate(-5deg);
+}
+
+.sm_border {
+    display: block;
+    height: 3px;
+    width: 80px;
+    margin-bottom: 15px;
+    bottom: -5px;
+    position: relative;
+    left: 50%;
+    background-color: var(--light-green);
+    transform: translate(-50%, 0);
+}
+
+#body_project {
+    max-height: max-content;
+}
