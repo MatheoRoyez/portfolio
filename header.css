@@ -124,7 +124,7 @@ img {
 }
 
 .fluvius {
-    background-image: url(../pictures/Knipsel.png);
+    background-image: url(./Knipsel.png);
     background-size: cover;
     background-position: 20%;
     width: 100%;
@@ -132,7 +132,7 @@ img {
 }
 
 .fluvius_2 {
-    background-image: url(../pictures/Knipsel2.png);
+    background-image: url(./Knipsel2.png);
     background-size: cover;
     background-position: 50%;
     width: 100%;
@@ -140,7 +140,7 @@ img {
 }
 
 .fluvius_3 {
-    background-image: url(../pictures/1572328043272.jfif);
+    background-image: url(./1572328043272.jfif);
     background-size: cover;
     background-position: 50%;
     width: 100%;
@@ -268,7 +268,7 @@ img {
     grid-area: contact1;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../pictures/Brew-Business-Connections-over-a-Coffee-Meeting-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./Brew-Business-Connections-over-a-Coffee-Meeting-1.jpg);
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@ img {
 }
 
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../pictures/891801.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./891801.jpg);
     background-size: cover;
     background-position: 50%;
     width: 100%;
